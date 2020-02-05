@@ -1,0 +1,8 @@
+ChDir C:\Sagar_Agrawal\Projects\ML\Base11
+For %file *.bmp
+LoadImage %file
+LoadROI C:\Sagar_Agrawal\Projects\ML\Codes\final without resize.roi
+LoadOptions C:\Sagar_Agrawal\Projects\ML\Codes\final without resize.ini
+RunAnalysis
+SaveReport C:\Sagar_Agrawal\Projects\ML\Codes\output\Reports\%file.par
+End
